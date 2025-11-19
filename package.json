@@ -1,5 +1,5 @@
 {
-  "name": "@rubixreactnative/react-native-paywall",
+  "name": "@rubixscript/react-native-paywall",
   "version": "1.0.0",
   "description": "A comprehensive React Native paywall library with subscription management and promo code support",
   "main": "src/index.ts",
@@ -22,11 +22,11 @@
     "expo",
     "react"
   ],
-  "author": "OnePage Team",
+  "author": "RubixScript Team",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/onepage/react-native-paywall.git"
+    "url": "https://github.com/rubixscript/react-native-paywall.git"
   },
   "peerDependencies": {
     "react": ">=18.0.0",

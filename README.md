@@ -16,9 +16,9 @@ A comprehensive React Native paywall library with subscription management and pr
 ## Installation
 
 ```bash
-npm install @onepage/react-native-paywall
+npm install @rubixscript/react-native-paywall
 # or
-yarn add @onepage/react-native-paywall
+yarn add @rubixscript/react-native-paywall
 ```
 
 ### Peer Dependencies
@@ -37,7 +37,7 @@ npm install react-native-purchases
 
 ```tsx
 import React from 'react';
-import { PaywallProvider } from '@onepage/react-native-paywall';
+import { PaywallProvider } from '@rubixscript/react-native-paywall';
 import { NavigationContainer } from '@react-navigation/native';
 import App from './App';
 
@@ -94,7 +94,7 @@ export default function Root() {
 ```tsx
 import React from 'react';
 import { View, Button } from 'react-native';
-import { usePaywall, PaywallModal, PromoCodeInput } from '@onepage/react-native-paywall';
+import { usePaywall, PaywallModal, PromoCodeInput } from '@rubixscript/react-native-paywall';
 
 const PremiumFeatures = () => {
   const { showPaywall, paywallState, selectPlan, purchasePlan, hidePaywall } = usePaywall();
