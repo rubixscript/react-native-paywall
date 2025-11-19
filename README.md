@@ -141,7 +141,7 @@ const PremiumFeatures = () => {
 ```tsx
 import React, { useState } from 'react';
 import { View } from 'react-native';
-import { usePromoCode, PromoCodeInput } from '@onepage/react-native-paywall';
+import { usePromoCode, PromoCodeInput } from '@rubixscript/react-native-paywall';
 
 const CheckoutScreen = () => {
   const { code, setCode, validatePromoCode, applyPromoCode, validation, isApplying } = usePromoCode();
@@ -176,7 +176,7 @@ The library provides several custom hooks for different use cases:
 #### useSubscription
 
 ```tsx
-import { useSubscription } from '@onepage/react-native-paywall';
+import { useSubscription } from '@rubixscript/react-native-paywall';
 
 const MyComponent = () => {
   const {
@@ -198,7 +198,7 @@ const MyComponent = () => {
 #### useSubscriptionPlans
 
 ```tsx
-import { useSubscriptionPlans } from '@onepage/react-native-paywall';
+import { useSubscriptionPlans } from '@rubixscript/react-native-paywall';
 
 const PlanSelector = () => {
   const { plans, selectedPlan, selectPlan, getPopularPlan, getCheapestPlan } = useSubscriptionPlans();
@@ -224,7 +224,7 @@ const PlanSelector = () => {
 #### usePaywallTriggers
 
 ```tsx
-import { usePaywallTriggers } from '@onepage/react-native-paywall';
+import { usePaywallTriggers } from '@rubixscript/react-native-paywall';
 
 const FeatureGate = ({ featureId, children }) => {
   const { triggerFeatureGate, isFeatureUnlocked } = usePaywallTriggers();
@@ -493,7 +493,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ```bash
 # Clone the repository
-git clone https://github.com/onepage/react-native-paywall.git
+git clone https://github.com/rubixscript/react-native-paywall.git
 cd react-native-paywall
 
 # Install dependencies
@@ -515,10 +515,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- 📖 [Documentation](https://paywall.onepage.dev)
-- 🐛 [Issues](https://github.com/onepage/react-native-paywall/issues)
-- 💬 [Discussions](https://github.com/onepage/react-native-paywall/discussions)
-- 📧 [Email Support](mailto:support@onepage.dev)
+- 📖 [Documentation](https://docs.rubixscript.com)
+- 🐛 [Issues](https://github.com/rubixscript/react-native-paywall/issues)
+- 💬 [Discussions](https://github.com/rubixscript/react-native-paywall/discussions)
+- 📧 [Email Support](mailto:support@rubixscript.com)
 
 ## Changelog
 
